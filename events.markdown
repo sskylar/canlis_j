@@ -38,6 +38,6 @@ outro:
     Call us at [(206)-298-9550](tel:2062989550) or email at [privatedining@canlis.com](mailto:privatedining@canlis.com)
 
     Download the [Canlis Event Planning Packet](http://canlis.com/packet.pdf)
-layout: post
+layout: default
 ---
 
