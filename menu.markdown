@@ -22,6 +22,18 @@ tastingmenupairings:
   price: "$145"
   desc: This pairing is tailored nightly by the sommelier team to showcase rare bottlings
     and unique producers.
+firstandsecondcourses:
+- title: Oysters
+  desc: Red wine mignonette*
+- title: Spot Prawns
+  desc: Vermouth, garlic, lime
+- title: Sturgeon Caviar
+  desc: Tuna, onion, kombu* / +30
+- title: Dungenous Crab
+  desc: Turnip, miso, and egg yolk
+- title: Canlis Salad
+  desc: Our great grandmother’s recipe. To honor the Canlis tradition, this salad
+    may be prepared table-side for the entire table.
 layout: post
 ---
 
