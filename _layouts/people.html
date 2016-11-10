@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include head.html %}
+
+<h1>Headline about people.</h1>
+
+{{ content }}
+
+<hr>
+
+{% for person in page.persons %}
+  {{ person.name }}<Br>
+{% endfor %}
+
+{% include footer.html %}
