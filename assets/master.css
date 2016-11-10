@@ -1900,6 +1900,7 @@ body {
 img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  max-width: 100%;
 }
 .PhotoDesc {
   position: absolute;
