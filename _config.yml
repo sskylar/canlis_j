@@ -1,3 +1,4 @@
+---
 title: Canlis
 timezone: America/Los_Angeles
 collections:
@@ -8,8 +9,8 @@ collections:
     title: Uploads
     output: true
 email: jeremy@jeremypbeasley.com
-description: 'Landmark fine-dining destination (since 1950s) offering Pacific NW fare
-  in a midcentury-modern home.'
+description: Landmark fine-dining destination (since 1950s) offering Pacific NW fare
+  in a midcentury-modern home.
 baseurl: 
 url: new.canlis.com
 twitter_username: canlis
