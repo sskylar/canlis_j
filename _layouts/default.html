@@ -1,16 +1,10 @@
-<!doctype html>
-<html>
-  <head>
-    {% include head.html %}
-  </head>
+{% include head.html %}
 
-  <body>
+<div class="row">
+  <div class="column col-xs-12 col-md-7 FirstThing">
+    <h1 class="mb10">{{ page.headline }}</h1>
+  </div>
+</div>
 
-    {{ content }}
 
-    <div class="page__footer">
-      <footer>
-      </footer>
-    </div>
-  </body>
-</html>
+{% include footer.html %}
