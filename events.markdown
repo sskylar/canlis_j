@@ -8,7 +8,7 @@ intro: |-
 
   With three private dining rooms and 180 degree views, Canlis gladly welcomes rehearsal dinners, wedding receptions, family reunions, anniversary parties, business dinners and board meetings, heads of state, presidential dignitaries and grandmothers.
 thecache:
-  title: The Cache
+  title: The Caché
   desc: |-
     2 - 4 guests
 
