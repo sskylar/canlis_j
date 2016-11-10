@@ -11,7 +11,7 @@ persons:
 - name: Brady Williams
   title: Executive Chef
   bio: this is the bio but only one line?
-layout: post
+layout: people
 ---
 
 these are our people
