@@ -2,7 +2,7 @@
 title: Private Events
 date: 2016-11-10 10:10:00 -08:00
 headline: " Seattles \n       premiere private \n   dining suites. \n          It
-  doesnt get\nbetter than this."
+  doesn't get\nbetter than this."
 intro: |-
   We are the most trusted private event venue in the city and we are ready to help you create a night you'll never forget.
 
@@ -41,4 +41,3 @@ outro:
 layout: post
 ---
 
-the best
