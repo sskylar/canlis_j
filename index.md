@@ -1,5 +1,5 @@
 ---
 title: Home
-layout: post
+layout: home
 ---
 
