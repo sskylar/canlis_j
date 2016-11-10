@@ -1,7 +1,7 @@
 ---
 title: Our People
 date: 2016-11-10 10:09:00 -08:00
-Persons:
+persons:
 - name: Mark Canlis
   title: Owner
   bio: this is the bio but only one line?
