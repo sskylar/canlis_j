@@ -1,6 +1,6 @@
 ---
-title: Your awesome title
-timezone: UTC
+title: Canlis
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
@@ -8,14 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description. '
-baseurl: ''
-url: ''
-twitter_username: jekyllrb
-github_username: jekyll
+email: jeremy@jeremypbeasley.com
+description: 'Landmark fine-dining destination (since 1950s) offering Pacific NW fare
+  in a midcentury-modern home.
+
+'
+baseurl: 
+url: new.canlis.com
+twitter_username: canlis
+github_username: jeremypbeasley
 markdown: kramdown
 gems:
 - jekyll-feed
