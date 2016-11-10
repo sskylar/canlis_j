@@ -14,6 +14,14 @@ mealtypes:
   price: "$145"
   desc: This preset menu is designed for the entire table to enjoy. We will always
     do our best to accommodate for allergies and dietary restrictions.
+tastingmenupairings:
+- title: Classic
+  price: "$95"
+  desc: Seven wines selected to complement the tasting menu.
+- title: Sommelier
+  price: "$145"
+  desc: This pairing is tailored nightly by the sommelier team to showcase rare bottlings
+    and unique producers.
 layout: post
 ---
 
