@@ -1,13 +1,19 @@
 {% include head.html %}
 
-<h1>Headline about people.</h1>
+<div class="row">
+  <div class="column col-xs-12 col-md-7 FirstThing">
+    <h1 class="mb10">Building on our roots as a family run business, our people are at the center of every part of the way we run Canlis.</h1>
+  </div>
+</div>
 
-{{ content }}
-
-<hr>
-
-{% for person in page.persons %}
-  {{ person.name }}<Br>
-{% endfor %}
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    {% for person in page.persons %}
+      <p>{{ person.name }}</p>
+      <p>{{ person.title}}</p>
+      {{ person.bio}}
+    {% endfor %}
+  </div>
+</div>
 
 {% include footer.html %}
