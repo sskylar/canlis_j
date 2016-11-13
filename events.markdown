@@ -13,25 +13,22 @@ intro:
   photo3: "/uploads/Eggleston_12.jpg"
 cache:
   title: The Caché
+  capacity: 2 - 4 guests
   desc: |-
-    2 - 4 guests
-
     Originally built as the owner’s office, this treetop niche quickly became the most exclusive table in Seattle. The Caché is an entirely private, intimate room on the 2nd floor of our restaurant with spectacular views across Lake Union and the Cascade Mountains. Amenities include a telescope, sound system, and chaise lounge.
     A room rental charge of $150 applies.
   photo: "/uploads/cache.png"
 executiveroom:
   title: The Executive Room
+  capacity: 10 - 30 guests
   desc: |-
-    10 - 30 guests
-
     The irresistibly comfortable “living room” of our restaurant. Host a business meeting with understated elegance, or a private dinner party with the warmth, intimacy, and personal touch that will make guests feel right at home. Amenities include a fireplace, wrap-around views, mahogany walls, oval or round tables, projector and screen, mp3 jack.
     A room rental charge of $250 applies.
   photo: "/uploads/exec-a70510.png"
 penthouse:
   title: The Penthouse
+  capacity: 30 - 100 guests
   desc: |-
-    30 - 100 guests
-
     Originally serving as Peter Canlis’s home, this room has hosted Seattle’s finest corporate and family events for over half a century. Praised for its architectural beauty and stunning views, it is a private dining room without equal in the Northwest. Amenities include a grand piano, sitting lounge, full bar, 85’ of floor-to-ceiling windows, views of Lake Union and the Cascade Mountains, projector and screen, mp3 and mic hook up.
 
     A room rental charge of $350 applies.
