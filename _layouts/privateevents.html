@@ -19,15 +19,17 @@
   </div>
 </div>
 <div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <p>{{ page.intro.desc }}</p>
+  <div class="column col-xs-12 col-md-6">
     <p><img src="{{ page.intro.photo3 }}"></p>
+  </div>
+  <div class="column col-xs-12 col-md-6">
+    {{ page.intro.desc | markdownify}}
   </div>
 </div>
 <div class="row">
   <div class="column col-xs-12 col-md-6">
     <h2>{{ page.cache.title }}</h2>
-    <p>{{ page.cache.desc }}</p>
+    {{ page.cache.desc | markdownify}}
   </div>
   <div class="column col-xs-12 col-md-6">
     <p><img src="{{ page.cache.photo }}"></p>
@@ -36,7 +38,7 @@
 <div class="row">
   <div class="column col-xs-12 col-md-6">
     <h2>{{ page.executiveroom.title }}</h2>
-    <p>{{ page.executiveroom.desc }}</p>
+    {{ page.executiveroom.desc | markdownify}}
   </div>
   <div class="column col-xs-12 col-md-6">
     <p><img src="{{ page.executiveroom.photo }}"></p>
@@ -45,10 +47,18 @@
 <div class="row">
   <div class="column col-xs-12 col-md-6">
     <h2>{{ page.penthouse.title }}</h2>
-    <p>{{ page.penthouse.desc }}</p>
+    {{ page.penthouse.desc | markdownify}}
   </div>
   <div class="column col-xs-12 col-md-6">
     <p><img src="{{ page.penthouse.photo }}"></p>
+  </div>
+</div>
+<div class="row">
+  <div class="column col-xs-12 col-md-6">
+    <h2>{{ page.outro.headline }}</h2>
+  </div>
+  <div class="column col-xs-12 col-md-6">
+    {{ page.outro.desc | markdownify}}
   </div>
 </div>
 
