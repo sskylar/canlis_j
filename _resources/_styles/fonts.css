@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'MaisonNeueMono';
+	src: url('_fonts/maisonneuemono.eot');
+	src: url('_fonts/maisonneuemono.eot') format('embedded-opentype'),
+	     url('_fonts/maisonneuemono.woff2') format('woff2'),
+	     url('_fonts/maisonneuemono.woff') format('woff'),
+	     url('_fonts/maisonneuemono.ttf') format('truetype'),
+	     url('_fonts/maisonneuemono.svg#maisonneuemono') format('svg');
+}
+
+@font-face {
+    font-family: 'FeijoaMedium';
+    src: url('_fonts/Feijoa_Medium.eot');
+    src: url('_fonts/Feijoa_Medium.eot') format('embedded-opentype'),
+         url('_fonts/Feijoa_Medium.woff2') format('woff2'),
+         url('_fonts/Feijoa_Medium.woff') format('woff'),
+         url('_fonts/Feijoa_Medium.ttf') format('truetype'),
+         url('_fonts/Feijoa_Medium.svg#Feijoa_Medium') format('svg');
+}
+
+@font-face {
+    font-family: 'NeueHaasUnicaProMedium';
+    src: url('_fonts/LinotypeNeueHaasUnicaProMedium.eot');
+    src: url('_fonts/LinotypeNeueHaasUnicaProMedium.eot') format('embedded-opentype'),
+         url('_fonts/LinotypeNeueHaasUnicaProMedium.woff2') format('woff2'),
+         url('_fonts/LinotypeNeueHaasUnicaProMedium.woff') format('woff'),
+         url('_fonts/LinotypeNeueHaasUnicaProMedium.ttf') format('truetype'),
+         url('_fonts/LinotypeNeueHaasUnicaProMedium.svg#LinotypeNeueHaasUnicaProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'GaramondNo4TLig';
+    src: url('_fonts/GaramondNo4TLig.eot');
+    src: url('_fonts/GaramondNo4TLig.eot') format('embedded-opentype'),
+         url('_fonts/GaramondNo4TLig.woff2') format('woff2'),
+         url('_fonts/GaramondNo4TLig.woff') format('woff'),
+         url('_fonts/GaramondNo4TLig.ttf') format('truetype'),
+         url('_fonts/GaramondNo4TLig.svg#GaramondNo4TLig') format('svg');
+}

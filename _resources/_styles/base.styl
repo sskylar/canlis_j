@@ -1,0 +1,75 @@
+html {
+  min-height 100%
+}
+* {
+  -webkit-tap-highlight-color rgba(0, 0, 0, 0)  
+  -webkit-font-smoothing antialiased
+  font-smoothing antialiased
+  box-sizing border-box
+}
+body {
+  height 100%
+  overflow-y auto
+  overflow-x hidden
+  margin 0
+  font-family typeface-primary
+  background color-background
+  color color-text
+}
+.Logo {
+  // width: 8rem;
+  // height: 1.5rem;
+  //background-image: url("_img/logo_canlis.svg");
+  background-repeat: no-repeat;
+  background-color: color-text;
+  //text-indent: -9999999px;
+  background-size: 100%;
+  display: block;
+  border: none; 
+  position: absolute;
+  top: 8vw;
+  left: 8vw;
+  color: color-background;
+  padding: .5rem 4rem;
+  text-align: center;
+}
+.GlobalNav {
+  position: absolute;
+  top: 4vw;
+  padding-top: calc(4vw + 8px);
+  padding-right: 4vw;
+  right: 4vw;
+  z-index: 9999999;
+}
+.GlobalNavToggle {
+  text-align: right;
+  cursor: pointer;
+}
+.GlobalNav ul {
+  height: 0px;
+  overflow: hidden;
+  //transition: all 100ms ease-out;
+  margin-top: 2rem;
+}
+.GlobalNav ul.Open {
+  height: 160px;
+}
+.GlobalNav li, .GlobalNav li a {
+  border: 0px;
+  text-align: right;
+}
+
+// GENERAL
+
+.column.FirstThing {
+  margin-top: 40vh;
+}
+
+// FOOTER
+
+.FooterLine {
+  background: color-text;
+  height: 6px;
+  width: 200px;
+}
+
