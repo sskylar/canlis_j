@@ -1,5 +1,4 @@
 {% include head.html %}
-
 <div class="row">
   <div class="column col-xs-12 col-md-8 FirstThing">
     <h1 class="mb10 Display1">
@@ -7,103 +6,101 @@
     </h1>
   </div>
 </div>
-
 <div class="row">
-  <div class="column col-xs-12 col-md-8 col-md-offset-2">
+  <div class="column col-xs-12 col-md-8 col-md-offset-3">
     <div class="row">
       {% for i in page.mealtypes %}
-        <div class="column col-xs-12 col-md-6">
-          <p class="Caption">{{ i.title }} / {{ i.price }}</p>
-          <p>{{ i.desc }}</p>
-        </div>
+      <div class="column nested col-xs-12 col-md-6">
+        <p class="Caption">{{ i.title }} / {{ i.price }}</p>
+        <p>{{ i.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="column col-xs-12 col-md-12">
+        <h2 class="Display2 mb10">Tasting Menu Pairings</h2>
+      </div>
+      {% for i in page.tastingmenupairings %}
+      <div class="column nested col-xs-12 col-md-6">
+        <p class="Caption">{{ i.title }} / {{ i.price }}</p>
+        <p>{{ i.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+<div class="row">
+  <div class="column col-xs-12 col-md-8 col-md-offset-1">
+    <div class="row">
+      <div class="column col-xs-12">
+        <h2 class="Display2 mb10">First & Second Courses</h2>
+      </div>
+      {% for i in page.firstandsecondcourses %}
+      <div class="column nested col-xs-12 col-md-6 mb5">
+        <p class="Caption">{{ i.title }}</p>
+        <p>{{ i.desc }}</p>
+      </div>
       {% endfor %}
     </div>
   </div>
 </div>
-
-<hr>
-
 <div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <h2 class="Display2">Tasting Menu Pairings</h2>
-    {% for i in page.tastingmenupairings %}
-      <p class="Caption">{{ i.title }} / {{ i.price }}</p>
-      <p>{{ i.desc }}</p>
-    {% endfor %}
+  <div class="column col-xs-12 col-md-8 col-md-offset-4">
+    <div class="row">
+      <div class="column col-xs-12">
+        <h2 class="Display2 mb10">Main Courses</h2>
+      </div>
+      {% for i in page.maincourses %}
+      <div class="column nested col-xs-12 col-md-6 mb5">
+        <p class="Caption">{{ i.title }}</p>
+        <p>{{ i.desc }}</p>
+      </div>
+      {% endfor %}
+      <div class="column col-xs-12">
+        <h2 class="Display2 mb10 mt4">Additions</h2>
+      </div>
+      {% for i in page.additions %}
+      <div class="column nested col-xs-12 col-md-6 mb5">
+        <p class="Caption">{{ i.title }}</p>
+        <p>{{ i.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
-
-<hr>
-
 <div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <h2 class="Display2">First & Second Courses</h2>
-    {% for i in page.firstandsecondcourses %}
-      <p class="Caption">{{ i.title }}</p>
-      <p>{{ i.desc }}</p>
-    {% endfor %}
+  <div class="column col-xs-12 col-md-8">
+    <div class="row">
+      <div class="column col-xs-12">
+        <h2 class="Display2 mb10">Desserts</h2>
+      </div>
+      {% for i in page.desserts %}
+      <div class="column nested col-xs-12 col-md-6 mb5">
+        <p class="Caption">{{ i.title }}</p>
+        <p>{{ i.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
-
-<hr>
-
 <div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <h2>Main Courses</h2>
-    {% for i in page.maincourses %}
-      <p class="Caption">{{ i.title }}</p>
-      <p>{{ i.desc }}</p>
-    {% endfor %}
+  <div class="column col-xs-12 col-md-8 col-md-offset-4">
+    <div class="row">
+      <div class="column col-xs-12">
+        <h2 class="Display2 mb10">Tasting Menu</h2>
+      </div>
+      {% for i in page.tastingmenu %}
+      <div class="column nested col-xs-12 col-md-6 mb5">
+        <p class="Caption">{{ i.title }}</p>
+        <p>{{ i.desc }}<Br><i>{{ i.wine }}</i></p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
-
-<hr>
-
-<div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <h2 class="Display2">Additions</h2>
-    {% for i in page.additions %}
-      <p class="Caption">{{ i.title }}</p>
-      <p>{{ i.desc }}</p>
-    {% endfor %}
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <h2 class="Display2">Desserts</h2>
-    {% for i in page.desserts %}
-      <p class="Caption">{{ i.title }}</p>
-      <p>{{ i.desc }}</p>
-    {% endfor %}
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="column col-xs-12 col-md-12">
-    <h2 class="Display2">Tasting Menu</h2>
-    <p>for the week of XXX XX</p>
-    {% for i in page.tastingmenu %}
-      <p>{{ i.title }}</p>
-      <p>{{ i.desc }}</p>
-      <p>{{ i.wine }}</p>
-    {% endfor %}
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
+<!-- <div class="row">
   <div class="column col-xs-12 col-md-12">
     <h2>Wine & Spirits</h2>
     <p>For more information about our extensive wine list and award winning bar, visit Wine & Spirits</p>
   </div>
-</div>
-
-<hr>
-
+</div> -->
 {% include footer.html %}
