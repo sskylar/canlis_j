@@ -1,17 +1,23 @@
 {% include head.html %}
 
 <div class="row">
-  <div class="column col-xs-12 col-md-7 FirstThing">
-    <h1 class="mb10 Display1">{{ page.headline }}</h1>
+  <div class="column col-xs-12 col-md-8 FirstThing">
+    <h1 class="mb10 Display1">
+      A mid-century-modern dream of clean lines and striking natural elements.
+    </h1>
   </div>
 </div>
 
 <div class="row">
-  <div class="column col-xs-12 col-md-12">
-    {% for i in page.mealtypes %}
-      <p>{{ i.title }} / {{ i.price }}</p>
-      <p>{{ i.desc }}</p>
-    {% endfor %}
+  <div class="column col-xs-12 col-md-8 col-md-offset-2">
+    <div class="row">
+      {% for i in page.mealtypes %}
+        <div class="column col-xs-12 col-md-6">
+          <p class="Caption">{{ i.title }} / {{ i.price }}</p>
+          <p>{{ i.desc }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -19,9 +25,9 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-12">
-    <h2>Tasting Menu Pairings</h2>
+    <h2 class="Display2">Tasting Menu Pairings</h2>
     {% for i in page.tastingmenupairings %}
-      <p>{{ i.title }} / {{ i.price }}</p>
+      <p class="Caption">{{ i.title }} / {{ i.price }}</p>
       <p>{{ i.desc }}</p>
     {% endfor %}
   </div>
@@ -31,9 +37,9 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-12">
-    <h2>First & Second Courses</h2>
+    <h2 class="Display2">First & Second Courses</h2>
     {% for i in page.firstandsecondcourses %}
-      <p>{{ i.title }}</p>
+      <p class="Caption">{{ i.title }}</p>
       <p>{{ i.desc }}</p>
     {% endfor %}
   </div>
@@ -45,7 +51,7 @@
   <div class="column col-xs-12 col-md-12">
     <h2>Main Courses</h2>
     {% for i in page.maincourses %}
-      <p>{{ i.title }}</p>
+      <p class="Caption">{{ i.title }}</p>
       <p>{{ i.desc }}</p>
     {% endfor %}
   </div>
@@ -55,9 +61,9 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-12">
-    <h2>Additions</h2>
+    <h2 class="Display2">Additions</h2>
     {% for i in page.additions %}
-      <p>{{ i.title }}</p>
+      <p class="Caption">{{ i.title }}</p>
       <p>{{ i.desc }}</p>
     {% endfor %}
   </div>
@@ -67,9 +73,9 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-12">
-    <h2>Desserts</h2>
+    <h2 class="Display2">Desserts</h2>
     {% for i in page.desserts %}
-      <p>{{ i.title }}</p>
+      <p class="Caption">{{ i.title }}</p>
       <p>{{ i.desc }}</p>
     {% endfor %}
   </div>
@@ -79,7 +85,7 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-12">
-    <h2>Tasting Menu</h2>
+    <h2 class="Display2">Tasting Menu</h2>
     <p>for the week of XXX XX</p>
     {% for i in page.tastingmenu %}
       <p>{{ i.title }}</p>
