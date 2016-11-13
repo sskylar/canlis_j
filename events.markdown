@@ -7,9 +7,9 @@ intro:
     We are the most trusted private event venue in the city and we are ready to help you create a night you'll never forget.
 
     With three private dining rooms and 180 degree views, Canlis gladly welcomes rehearsal dinners, wedding receptions, family reunions, anniversary parties, business dinners and board meetings, heads of state, presidential dignitaries and grandmothers.
-  photo1: 
-  photo2: 
-  photo3: 
+  photo1: "/uploads/William-Eggleston-New-Dyes-Boy.jpg"
+  photo2: "/uploads/107875_7.jpg"
+  photo3: "/uploads/Eggleston_12.jpg"
 cache:
   title: The Caché
   desc: |-
