@@ -8,13 +8,96 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-12">
-    {% for person in page.persons %}
-      <p><img src="{{ person.photo }}"></p>
-      <p>{{ person.name }}</p>
-      <p>{{ person.title}}</p>
-      {{ person.bio | markdownify }}<Br><Br>
+    {% for i in page.mealtypes %}
+      <p>{{ i.title }} / {{ i.price }}</p>
+      <p>{{ i.desc }}</p>
     {% endfor %}
   </div>
 </div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>Tasting Menu Pairings</h2>
+    {% for i in page.tastingmenupairings %}
+      <p>{{ i.title }} / {{ i.price }}</p>
+      <p>{{ i.desc }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>First & Second Courses</h2>
+    {% for i in page.firstandsecondcourses %}
+      <p>{{ i.title }}</p>
+      <p>{{ i.desc }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>Main Courses</h2>
+    {% for i in page.maincourses %}
+      <p>{{ i.title }}</p>
+      <p>{{ i.desc }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>Additions</h2>
+    {% for i in page.additions %}
+      <p>{{ i.title }}</p>
+      <p>{{ i.desc }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>Desserts</h2>
+    {% for i in page.desserts %}
+      <p>{{ i.title }}</p>
+      <p>{{ i.desc }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>Tasting Menu</h2>
+    <p>for the week of XXX XX</p>
+    {% for i in page.tastingmenu %}
+      <p>{{ i.title }}</p>
+      <p>{{ i.desc }}</p>
+      <p>{{ i.wine }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <h2>Wine & Spirits</h2>
+    <p>For more information about our extensive wine list and award winning bar, visit Wine & Spirits</p>
+  </div>
+</div>
+
+<hr>
 
 {% include footer.html %}
