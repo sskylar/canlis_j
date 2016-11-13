@@ -72,9 +72,6 @@ additions:
 desserts:
 - title: Sorbet
   desc: With seasonal fruit
-- title: Soufflé
-  desc: A Canlis classic, with Grand Marnier and crème anglaise (please allow 30 minutes
-    for this dessert)
 - title: Crème Brûlée
   desc: Classically prepared and served with sorbet
 - title: Japanese Cheesecake
@@ -85,6 +82,9 @@ desserts:
   desc: Raspberry, hazelnut, and elderflower
 - title: Cheese
   desc: A selection of artisan cheeses
+- title: Soufflé
+  desc: A Canlis classic, with Grand Marnier and crème anglaise (please allow 30 minutes
+    for this dessert)
 tastingmenu:
 - title: Canlis Salad
   desc: 
