@@ -1,0 +1,55 @@
+{% include head.html %}
+
+<div class="row">
+  <div class="column col-xs-12 col-md-7 FirstThing">
+    <h1 class="mb10">{{ page.headline }}</h1>
+    <p><img src="{{ page.intro.photo1 }}"></p>
+    <p><img src="{{ page.intro.photo2 }}"></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    {% for person in page.persons %}
+      <p><img src="{{ person.photo }}"></p>
+      <p>{{ person.name }}</p>
+      <p>{{ person.title}}</p>
+      {{ person.bio | markdownify }}<Br><Br>
+    {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <div class="column col-xs-12 col-md-12">
+    <p>{{ page.intro.desc }}</p>
+    <p><img src="{{ page.intro.photo3 }}"></p>
+  </div>
+</div>
+<div class="row">
+  <div class="column col-xs-12 col-md-6">
+    <h2>{{ page.cache.title }}</h2>
+    <p>{{ page.cache.desc }}</p>
+  </div>
+  <div class="column col-xs-12 col-md-6">
+    <p><img src="{{ page.cache.photo }}"></p>
+  </div>
+</div>
+<div class="row">
+  <div class="column col-xs-12 col-md-6">
+    <h2>{{ page.executiveroom.title }}</h2>
+    <p>{{ page.executiveroom.desc }}</p>
+  </div>
+  <div class="column col-xs-12 col-md-6">
+    <p><img src="{{ page.executiveroom.photo }}"></p>
+  </div>
+</div>
+<div class="row">
+  <div class="column col-xs-12 col-md-6">
+    <h2>{{ page.penthouse.title }}</h2>
+    <p>{{ page.penthouse.desc }}</p>
+  </div>
+  <div class="column col-xs-12 col-md-6">
+    <p><img src="{{ page.penthouse.photo }}"></p>
+  </div>
+</div>
+
+{% include footer.html %}
