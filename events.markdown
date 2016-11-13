@@ -2,10 +2,14 @@
 title: Private Events
 date: 2016-11-10 10:10:00 -08:00
 headline: Seattle's premiere private dining suites. It doesn't get better than this.
-intro: |-
-  We are the most trusted private event venue in the city and we are ready to help you create a night you'll never forget.
+intro:
+  desc: |-
+    We are the most trusted private event venue in the city and we are ready to help you create a night you'll never forget.
 
-  With three private dining rooms and 180 degree views, Canlis gladly welcomes rehearsal dinners, wedding receptions, family reunions, anniversary parties, business dinners and board meetings, heads of state, presidential dignitaries and grandmothers.
+    With three private dining rooms and 180 degree views, Canlis gladly welcomes rehearsal dinners, wedding receptions, family reunions, anniversary parties, business dinners and board meetings, heads of state, presidential dignitaries and grandmothers.
+  photo1: 
+  photo2: 
+  photo3: 
 thecache:
   title: The Caché
   desc: |-
