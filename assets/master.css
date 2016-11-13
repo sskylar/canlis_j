@@ -1948,3 +1948,20 @@ img {
   background: #f2f1ef;
   padding: 0.5rem 1rem;
 }
+.PrivateEventsHeadline {
+  margin-top: 25vh;
+}
+.PrivateEventsPhoto1 {
+  position: absolute;
+  width: 45vw;
+  top: -5vw;
+  left: 35vw;
+  z-index: 0;
+}
+.PrivateEventsPhoto2 {
+  position: absolute;
+  width: 45vw;
+  top: 40vw;
+  left: 45vw;
+  z-index: 0;
+}
