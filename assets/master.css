@@ -1570,7 +1570,7 @@ a {
   text-decoration: none;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   border-bottom: 1px solid rgba(0,0,0,0.2);
-  color: #666;
+  color: #272320;
   padding-bottom: 0.1rem;
 }
 a:hover {
@@ -1599,10 +1599,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0;
-  padding: 0 0;
+  margin: 0;
+  padding: 0;
   font-weight: normal;
-  font-family: Arial, GaramondNo4TLig, Georgia, serif;
+  font-family: "GTSectraDisplayTrial-Light", Arial, GaramondNo4TLig, Georgia, serif;
   line-height: 130%;
   position: relative;
   z-index: 9999;
@@ -1610,7 +1610,6 @@ h6 {
 }
 h1 {
   font-size: 2rem;
-  display: block;
 }
 h3 {
   font-size: 1rem;
@@ -1627,15 +1626,29 @@ li {
 }
 .PrimaryCTA {
   font-size: 0.8rem;
-  color: #666;
+  color: #272320;
   text-transform: uppercase;
   letter-spacing: 0.04rem;
   font-weight: bold;
   text-align: center;
-  border: 1px solid #666;
+  border: 1px solid #272320;
   border-radius: 3px;
   padding: 0.5rem 1rem;
   background: none;
+}
+.Display1 {
+  font-size: 90px;
+  line-height: 125%;
+  font-family: "GTSectraDisplayTrial-Light", Arial, GaramondNo4TLig, Georgia, serif;
+}
+.Display1 a {
+  font-family: "GTSectraDisplayTrialLight-Italic", Arial, GaramondNo4TLig, Georgia, serif;
+  border-bottom: 1px solid #bf9b30;
+}
+.Display2 {
+  font-size: 35px;
+  line-height: 125%;
+  font-family: "GTSectraDisplayTrial-Light", Arial, GaramondNo4TLig, Georgia, serif;
 }
 .LabelText {
   font-size: 0.8rem;
@@ -1644,7 +1657,7 @@ li {
   font-weight: bold;
 }
 .Caption {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.04rem;
   font-family: "Apercu-Mono";
@@ -1663,53 +1676,87 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
-  font-family: Arial, "FeijoaMedium", "MaisonNeueMono", monospaced;
-  background: #ccc;
-  color: #666;
+  font-family: "GTSectraFineTrial-Book", Arial, "MaisonNeueMono", monospaced;
+  background: #f2f1ef;
+  color: #272320;
+}
+img {
+  max-width: 100%;
 }
 .Logo {
+  width: 7.5rem;
+  height: 1.5rem;
+  background-image: url("http://cdn2.dropmark.com/39456/09169b4ae838f68c4071acf55fdd82eb134839fc/canlislogo.svg");
   background-repeat: no-repeat;
-  background-color: #666;
+  text-indent: -9999999px;
   background-size: 100%;
   display: block;
   border: none;
   position: absolute;
-  top: 8vw;
-  left: 8vw;
-  color: #ccc;
-  padding: 0.5rem 4rem;
+  top: 6vw;
+  left: 6vw;
+  color: #f2f1ef;
   text-align: center;
 }
 .GlobalNav {
   position: absolute;
-  top: 4vw;
+  top: 2vw;
   padding-top: calc(4vw + 8px);
   padding-right: 4vw;
-  right: 4vw;
+  right: 2vw;
   z-index: 9999999;
 }
 .GlobalNavToggle {
   text-align: right;
   cursor: pointer;
 }
-.GlobalNav ul {
-  height: 0px;
-  overflow: hidden;
-  margin-top: 2rem;
-}
-.GlobalNav ul.Open {
-  height: 160px;
-}
 .GlobalNav li,
 .GlobalNav li a {
   border: 0px;
   text-align: right;
+  transition: 200ms all ease-out;
+}
+.GlobalNav li a {
+  border-bottom: 1px solid #f2f1ef;
+}
+.GlobalNav li a:hover {
+  border-bottom: 1px solid #bf9b30;
+}
+.SocialNav {
+  margin-top: 1rem;
+}
+.SocialNav li {
+  float: right;
+}
+.SocialNav li a {
+  width: 22px;
+  height: 22px;
+  background-size: 97%;
+  background-repeat: no-repeat;
+  text-indent: 99999px;
+  display: block;
+  margin-left: 0.5rem;
+  transition: opacity 200ms ease-out;
+}
+.SocialNav li a:hover {
+  opacity: 0.5;
+  border-bottom: none;
+}
+.SocialNav li a.Twitter {
+  background-image: url("http://cdn2.dropmark.com/39456/8d64ff48f9e52a330d698b17e8ac32aea79bbbf0/icon_twitter.png");
+}
+.SocialNav li a.Instagram {
+  background-image: url("http://cdn2.dropmark.com/39456/a0bc1cf323fb4f99e3cc26ea49d7851d819dfc0c/icon_instagram.png");
 }
 .column.FirstThing {
   margin-top: 40vh;
 }
+.GlobalFooter {
+  margin-top: 12vw;
+  margin-bottom: 12vw;
+}
 .FooterLine {
-  background: #666;
+  background: #272320;
   height: 6px;
   width: 200px;
 }
@@ -1861,17 +1908,17 @@ body {
   padding-top: 80px;
 }
 .row {
-  margin: 6vw;
+  margin: 5vw;
 }
-.column {
-  margin: 1vw;
+.col-md-offset-2 {
+  margin-left: 8.3333333%;
 }
 .Intro {
   position: absolute;
-  bottom: 10vw;
   left: 6vw;
   margin: 0px;
   width: calc(100% - 12vw);
+  top: 5.5vw;
 }
 .IntroFiller {
   height: calc(100vh - 4vw);
@@ -1898,6 +1945,6 @@ img {
   text-align: center;
   width: calc(100% - 6px);
   left: 3px;
-  background: #ccc;
+  background: #f2f1ef;
   padding: 0.5rem 1rem;
 }

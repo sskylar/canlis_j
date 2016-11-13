@@ -2,7 +2,16 @@
 
 <div class="row">
   <div class="column col-xs-12 col-md-7 FirstThing">
-    <h1 class="mb10">{{ page.headline }}</h1>
+    <h1 class="mb10 Display1">
+
+Seattle's&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;premiere&nbsp;private&nbsp;
+&nbsp;&nbsp;&nbsp;dining&nbsp;suites.&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It&nbsp;doesnt&nbsp;get
+&nbsp;&nbsp;&nbsp;better&nbsp;than&nbsp;this.
+
+
+    </h1>
     <p><img src="{{ page.intro.photo1 }}"></p>
     <p><img src="{{ page.intro.photo2 }}"></p>
   </div>
@@ -27,35 +36,35 @@
   </div>
 </div>
 <div class="row">
-  <div class="column col-xs-12 col-md-6">
-    <h2>{{ page.cache.title }}</h2>
+  <div class="column col-xs-12 col-md-5">
+    <h2 class="Display2">{{ page.cache.title }}</h2>
     {{ page.cache.desc | markdownify}}
   </div>
-  <div class="column col-xs-12 col-md-6">
+  <div class="column col-xs-12 col-md-7">
     <p><img src="{{ page.cache.photo }}"></p>
   </div>
 </div>
 <div class="row">
-  <div class="column col-xs-12 col-md-6">
-    <h2>{{ page.executiveroom.title }}</h2>
-    {{ page.executiveroom.desc | markdownify}}
-  </div>
-  <div class="column col-xs-12 col-md-6">
+  <div class="column col-xs-12 col-md-7">
     <p><img src="{{ page.executiveroom.photo }}"></p>
+  </div>
+  <div class="column col-xs-12 col-md-5">
+    <h2 class="Display2">{{ page.executiveroom.title }}</h2>
+    {{ page.executiveroom.desc | markdownify}}
   </div>
 </div>
 <div class="row">
-  <div class="column col-xs-12 col-md-6">
-    <h2>{{ page.penthouse.title }}</h2>
+  <div class="column col-xs-12 col-md-5">
+    <h2 class="Display2">{{ page.penthouse.title }}</h2>
     {{ page.penthouse.desc | markdownify}}
   </div>
-  <div class="column col-xs-12 col-md-6">
+  <div class="column col-xs-12 col-md-7">
     <p><img src="{{ page.penthouse.photo }}"></p>
   </div>
 </div>
 <div class="row">
   <div class="column col-xs-12 col-md-6">
-    <h2>{{ page.outro.headline }}</h2>
+    <h2 class="Display2">{{ page.outro.headline }}</h2>
   </div>
   <div class="column col-xs-12 col-md-6">
     {{ page.outro.desc | markdownify}}

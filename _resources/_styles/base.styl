@@ -16,29 +16,30 @@ body {
   background color-background
   color color-text
 }
+img {
+  max-width: 100%;
+}
 .Logo {
-  // width: 8rem;
-  // height: 1.5rem;
-  //background-image: url("_img/logo_canlis.svg");
+  width: 7.5rem;
+  height: 1.5rem;
+  background-image: url("http://cdn2.dropmark.com/39456/09169b4ae838f68c4071acf55fdd82eb134839fc/canlislogo.svg");
   background-repeat: no-repeat;
-  background-color: color-text;
-  //text-indent: -9999999px;
+  text-indent: -9999999px;
   background-size: 100%;
   display: block;
   border: none; 
   position: absolute;
-  top: 8vw;
-  left: 8vw;
+  top: 6vw;
+  left: 6vw;
   color: color-background;
-  padding: .5rem 4rem;
   text-align: center;
 }
 .GlobalNav {
   position: absolute;
-  top: 4vw;
+  top: 2vw;
   padding-top: calc(4vw + 8px);
   padding-right: 4vw;
-  right: 4vw;
+  right: 2vw;
   z-index: 9999999;
 }
 .GlobalNavToggle {
@@ -46,17 +47,47 @@ body {
   cursor: pointer;
 }
 .GlobalNav ul {
-  height: 0px;
-  overflow: hidden;
+  //height: 0px;
+  //overflow: hidden;
   //transition: all 100ms ease-out;
-  margin-top: 2rem;
-}
-.GlobalNav ul.Open {
-  height: 160px;
+  //margin-top: 2rem;
 }
 .GlobalNav li, .GlobalNav li a {
   border: 0px;
   text-align: right;
+  transition: 200ms all ease-out;
+}
+.GlobalNav li a {
+  border-bottom: 1px solid color-background;
+}
+.GlobalNav li a:hover {
+  border-bottom: 1px solid color-gold;
+}
+.SocialNav {
+  margin-top: 1rem;
+}
+.SocialNav li {
+  float: right;
+}
+.SocialNav li a {
+  width: 22px;
+  height: 22px;
+  background-size: 97%;
+  background-repeat: no-repeat;
+  text-indent: 99999px;
+  display: block;
+  margin-left: .5rem;
+  transition: opacity 200ms ease-out;
+}
+.SocialNav li a:hover {
+  opacity: .5;
+  border-bottom: none;
+}
+.SocialNav li a.Twitter {
+  background-image: url("http://cdn2.dropmark.com/39456/8d64ff48f9e52a330d698b17e8ac32aea79bbbf0/icon_twitter.png")
+}
+.SocialNav li a.Instagram {
+  background-image: url("http://cdn2.dropmark.com/39456/a0bc1cf323fb4f99e3cc26ea49d7851d819dfc0c/icon_instagram.png")
 }
 
 // GENERAL
@@ -66,6 +97,11 @@ body {
 }
 
 // FOOTER
+
+.GlobalFooter {
+  margin-top: 12vw;
+  margin-bottom: 12vw;
+}
 
 .FooterLine {
   background: color-text;
