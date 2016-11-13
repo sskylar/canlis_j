@@ -10,7 +10,7 @@ intro:
   photo1: 
   photo2: 
   photo3: 
-thecache:
+cache:
   title: The Caché
   desc: |-
     2 - 4 guests
@@ -26,7 +26,7 @@ executiveroom:
     The irresistibly comfortable “living room” of our restaurant. Host a business meeting with understated elegance, or a private dinner party with the warmth, intimacy, and personal touch that will make guests feel right at home. Amenities include a fireplace, wrap-around views, mahogany walls, oval or round tables, projector and screen, mp3 jack.
     A room rental charge of $250 applies.
   photo: "/uploads/exec-a70510.png"
-thepenthouse:
+penthouse:
   title: The Penthouse
   desc: |-
     30 - 100 guests
@@ -41,6 +41,6 @@ outro:
     Call us at [(206)-298-9550](tel:2062989550) or email at [privatedining@canlis.com](mailto:privatedining@canlis.com)
 
     Download the [Canlis Event Planning Packet](http://canlis.com/packet.pdf)
-layout: privateevents
+layout: default
 ---
 
