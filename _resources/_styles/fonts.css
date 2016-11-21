@@ -1,45 +1,45 @@
 @font-face {
     font-family: 'GTSectraDisplayTrialLight';
-    src: url('GTSectraDisplayTrialLight.eot');
-    src: url('GTSectraDisplayTrialLight.eot') format('embedded-opentype'),
-         url('GTSectraDisplayTrialLight.woff2') format('woff2'),
-         url('GTSectraDisplayTrialLight.woff') format('woff'),
-         url('GTSectraDisplayTrialLight.ttf') format('truetype'),
-         url('GTSectraDisplayTrialLight.svg#GTSectraDisplayTrialLight') format('svg');
+    src: url('_fonts/GTSectraDisplayTrialLight.eot');
+    src: url('_fonts/GTSectraDisplayTrialLight.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraDisplayTrialLight.woff2') format('woff2'),
+         url('_fonts/GTSectraDisplayTrialLight.woff') format('woff'),
+         url('_fonts/GTSectraDisplayTrialLight.ttf') format('truetype'),
+         url('_fonts/GTSectraDisplayTrialLight.svg#GTSectraDisplayTrialLight') format('svg');
 }
 @font-face {
     font-family: 'GTSectraDisplayTrialLightItalic';
-    src: url('GTSectraDisplayTrialLightItalic.eot');
-    src: url('GTSectraDisplayTrialLightItalic.eot') format('embedded-opentype'),
-         url('GTSectraDisplayTrialLightItalic.woff2') format('woff2'),
-         url('GTSectraDisplayTrialLightItalic.woff') format('woff'),
-         url('GTSectraDisplayTrialLightItalic.ttf') format('truetype'),
-         url('GTSectraDisplayTrialLightItalic.svg#GTSectraDisplayTrialLightItalic') format('svg');
+    src: url('_fonts/GTSectraDisplayTrialLightItalic.eot');
+    src: url('_fonts/GTSectraDisplayTrialLightItalic.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.woff2') format('woff2'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.woff') format('woff'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.ttf') format('truetype'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.svg#GTSectraDisplayTrialLightItalic') format('svg');
 }
 @font-face {
     font-family: 'GTSectraTrialBook';
-    src: url('GTSectraTrialBook.eot');
-    src: url('GTSectraTrialBook.eot') format('embedded-opentype'),
-         url('GTSectraTrialBook.woff2') format('woff2'),
-         url('GTSectraTrialBook.woff') format('woff'),
-         url('GTSectraTrialBook.ttf') format('truetype'),
-         url('GTSectraTrialBook.svg#GTSectraTrialBook') format('svg');
+    src: url('_fonts/GTSectraTrialBook.eot');
+    src: url('_fonts/GTSectraTrialBook.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraTrialBook.woff2') format('woff2'),
+         url('_fonts/GTSectraTrialBook.woff') format('woff'),
+         url('_fonts/GTSectraTrialBook.ttf') format('truetype'),
+         url('_fonts/GTSectraTrialBook.svg#GTSectraTrialBook') format('svg');
 }
 @font-face {
     font-family: 'GTSectraTrialBookItalic';
-    src: url('GTSectraTrialBookItalic.eot');
-    src: url('GTSectraTrialBookItalic.eot') format('embedded-opentype'),
-         url('GTSectraTrialBookItalic.woff2') format('woff2'),
-         url('GTSectraTrialBookItalic.woff') format('woff'),
-         url('GTSectraTrialBookItalic.ttf') format('truetype'),
-         url('GTSectraTrialBookItalic.svg#GTSectraTrialBookItalic') format('svg');
+    src: url('_fonts/GTSectraTrialBookItalic.eot');
+    src: url('_fonts/GTSectraTrialBookItalic.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraTrialBookItalic.woff2') format('woff2'),
+         url('_fonts/GTSectraTrialBookItalic.woff') format('woff'),
+         url('_fonts/GTSectraTrialBookItalic.ttf') format('truetype'),
+         url('_fonts/GTSectraTrialBookItalic.svg#GTSectraTrialBookItalic') format('svg');
 }
 @font-face {
     font-family: 'ApercuMono';
-    src: url('ApercuMono.eot');
-    src: url('ApercuMono.eot') format('embedded-opentype'),
-         url('ApercuMono.woff2') format('woff2'),
-         url('ApercuMono.woff') format('woff'),
-         url('ApercuMono.ttf') format('truetype'),
-         url('ApercuMono.svg#ApercuMono') format('svg');
+    src: url('_fonts/ApercuMono.eot');
+    src: url('_fonts/ApercuMono.eot') format('embedded-opentype'),
+         url('_fonts/ApercuMono.woff2') format('woff2'),
+         url('_fonts/ApercuMono.woff') format('woff'),
+         url('_fonts/ApercuMono.ttf') format('truetype'),
+         url('_fonts/ApercuMono.svg#ApercuMono') format('svg');
 }
