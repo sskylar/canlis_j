@@ -38,8 +38,8 @@ assets:
   - "*.woff"
   - "*.woff2"
   - "*.eot"
-  - "master.css"
-  - "master.js"
+  - master.css
+  - master.js
   sources:
   - _assets/
   - _assets/_img
