@@ -8,14 +8,14 @@ module.exports = function(grunt) {
       },
       compile: {
         files: {
-          'assets/master.css': '_resources/_styles/master.styl',
+          '_assets/master.css': '_resources/_styles/master.styl',
         }
       }
     },
     concat: {
       dist: {
         src: ['node_modules/jquery/dist/jquery.min.js', '_resources/_scripts/main.js'],
-        dest: 'assets/master.js',
+        dest: '_assets/master.js',
       }
     },
     concat: {   
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
           'node_modules/jquery/dist/jquery.js',
           '_resources/_scripts/main.js'
         ], 
-        dest: 'assets/master.js',
+        dest: '_assets/master.js',
       }
     },
     watch: {

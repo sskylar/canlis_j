@@ -30,6 +30,7 @@ assets:
   prefix: "/assets"
   digest: false
   assets:
+  - "*.css"
   - "*.png"
   - "*.jpg"
   - "*.svg"
@@ -39,5 +40,6 @@ assets:
   - "*.woff2"
   - "*.eot"
   sources:
+  - _assets/
   - _assets/_img
   - _assets/_fonts
