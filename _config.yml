@@ -38,6 +38,6 @@ assets:
   - master.css
   - master.js
   sources:
-  - _assets/
-  - _assets/_img
-  - _assets/_fonts
+  - assets/
+  - assets/_img
+  - assets/_fonts
