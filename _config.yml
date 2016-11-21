@@ -23,7 +23,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 gems:
-- jekyll-feed
+# - jekyll-feed
 - jekyll-assets
 assets:
   autowrite: true

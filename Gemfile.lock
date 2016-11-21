@@ -105,7 +105,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.3.0)
   jekyll-assets (= 2.2.8)
-  jekyll-feed (~> 0.6)
   minimal-mistakes-jekyll
 
 RUBY VERSION
