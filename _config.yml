@@ -19,8 +19,27 @@ url: new.canlis.com
 twitter_username: canlis
 github_username: jeremypbeasley
 markdown: kramdown
-gems:
-- jekyll-feed
 exclude:
 - Gemfile
 - Gemfile.lock
+gems:
+- jekyll-feed
+- jekyll-assets
+assets:
+  autowrite: true
+  prefix: "/assets"
+  digest: false
+  assets:
+    - "*.png"
+    - "*.jpg"
+    - "*.svg"
+    - "*.otf"
+    - "*.ttf"
+    - "*.woff"
+    - "*.woff2"
+    - "*.eot"
+  sources:
+    - _assets/_img
+    - _assets/_fonts
+
+  
