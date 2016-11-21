@@ -25,6 +25,7 @@ exclude:
 gems:
 - jekyll-assets
 assets:
+  cache: false
   autowrite: true
   prefix: "/assets"
   digest: false
