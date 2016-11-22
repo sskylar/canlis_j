@@ -10236,4 +10236,9 @@ return jQuery;
 
 // loadBrady();
 
-console.log("working!")
+console.log("maybe it's working!")
+
+var sticky = new Waypoint.Sticky({
+  element: $(".GlobalNav")[0]
+})
+

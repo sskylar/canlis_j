@@ -1671,7 +1671,6 @@ li {
   text-transform: uppercase;
   letter-spacing: 0.04rem;
   font-family: "ApercuMono", Andale Mono, monospaced;
-  color: #666;
 }
 html {
   min-height: 100%;
@@ -2030,29 +2029,22 @@ img {
 .column .row {
   padding: 0 !important;
 }
-.IntroFiller {
-  height: calc(100vh - 4vw);
+.HomeHeadline {
+  margin-left: 8%;
+  margin-top: 5vw;
+  margin-bottom: 0vw;
 }
-.PhotoSingle {
-  margin-bottom: -4px;
+.HomePhoto1 {
   position: relative;
+  width: 150%;
+  max-width: 150%;
+  margin-left: -29vw;
 }
-.PhotoSingle img {
-  max-width: 100%;
-  opacity: 0.5;
-}
-.PhotoSingle .Full img {
-  width: 100%;
-}
-.PhotoDesc {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  width: calc(100% - 6px);
-  left: 3px;
-  background: #f2f1ef;
-  padding: 0.5rem 1rem;
+.HomePhoto2 {
+  position: relative;
+  width: 150%;
+  max-width: 150%;
+  margin-right: -32vw;
 }
 .PeopleHeadline {
   margin-left: -5%;
@@ -2098,6 +2090,8 @@ img {
 }
 .PrivateEventsHeadline {
   margin-top: 15vh;
+  margin-bottom: -4vw;
+  margin-left: 5%;
 }
 .PrivateEventsPhoto1 {
   position: absolute;
@@ -2200,7 +2194,7 @@ img {
   margin-top: 5vw;
 }
 .MenuHeadline {
-  margin-left: -10%;
+  margin-left: -5%;
 }
 .DinnerPlates {
   background-image: url("_img/plate.svg");
@@ -2209,7 +2203,7 @@ img {
   position: relative;
   height: 40vw;
   width: 40vw;
-  box-shadow: 6px 6px 30px 0px rgba(0,0,0,0.05);
+  box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.05);
   border-radius: 1000000px;
 }
 .DinnerPlate1 {
@@ -2227,7 +2221,7 @@ img {
 .DinnerPlate3 {
   width: 32vw;
   height: 32vw;
-  margin-top: -20%;
+  margin-top: 5%;
   margin-left: -75%;
 }
 .DinnerPlate4 {
@@ -2259,6 +2253,27 @@ img {
   height: 40vw;
   bottom: -5vw;
   margin-left: -18vw;
+}
+.WineHeadline {
+  margin-top: 18vh;
+  margin-bottom: 5vw;
+  margin-left: 25%;
+}
+.BigPlaceholderSection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: #ccc;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.BigPlaceholderSection p {
+  text-align: center;
+  width: 100%;
+}
+.BigPlaceholderSection.Small {
+  height: 50vh;
 }
 body.Invert {
   background-color: #151311;

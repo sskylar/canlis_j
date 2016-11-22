@@ -22,6 +22,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'node_modules/jquery/dist/jquery.js',
+          // 'node_modules/waypoints/lib/jquery.waypoints.js',
+          // 'node_modules/waypoints/lib/shortcuts/sticky.js',
           '_resources/_scripts/main.js'
         ], 
         dest: 'assets/master.js',
