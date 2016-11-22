@@ -1,22 +1,19 @@
 {% include head.html %}
 
 <div class="row">
-  <div class="column col-xs-12 col-md-7 PrivateEventsHeadline">
-    <h1 class="mb10 Display1">
+  <div class="column col-xs-12 col-md-6 col-md-offset-6 PrivateEventsHeadline">
+    <h1 class="Display1">
 
-Seattle's&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;premiere&nbsp;private&nbsp;
-&nbsp;&nbsp;&nbsp;dining&nbsp;suites.&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It&nbsp;doesnt&nbsp;get
-&nbsp;&nbsp;&nbsp;better&nbsp;than&nbsp;this.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seattle's&nbsp;
+premiere&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;
+&nbsp;&nbsp;&nbsp;dining&nbsp;suites.
 
     </h1>
-    <p><img class="PrivateEventsPhoto1" src="{{ page.intro.photo1 }}"></p>
-    <p><img class="PrivateEventsPhoto2" src="{{ page.intro.photo2 }}"></p>
+    <p><img class="PrivateEventsPhoto1" src="http://cdn2.dropmark.com/39456/d13add54a9b505d2a4f6fc663a2869e7d2a1e6df/privateevents_01.png"></p>
+    <p><img class="PrivateEventsPhoto2" src="http://canlis.com/wp-content/gallery/private-dining/pdr-16.jpg"></p>
   </div>
 </div>
-
 <div class="row">
   <div class="column col-xs-12 col-md-12">
     {% for person in page.persons %}
@@ -27,48 +24,48 @@ Seattle's&nbsp;
     {% endfor %}
   </div>
 </div>
-<div class="row">
-  <div class="column col-xs-12 col-md-6">
-    <p><img src="{{ page.intro.photo3 }}"></p>
+<div class="row AlignCenter">
+  <div class="column col-xs-12 col-md-7">
+    <p><img class="PrivateEventsPhoto3" src="https://s3.amazonaws.com/borrowed-and-blue-staging/photos-images/117780/original-open-uri20130531-2-uzys54.jpg"></p>
   </div>
-  <div class="column col-xs-12 col-md-6">
-    <p class="Caption mb5">INTRODUCTION</p>
+  <div class="column col-xs-12 col-md-5">
+    <p class="Caption mb2">A HISTORY OF EXCELLENCE</p>
     {{ page.intro.desc | markdownify}}
   </div>
 </div>
-<div class="row">
+<div class="row AlignCenter">
   <div class="column col-xs-12 col-md-5">
-    <h2 class="Display1 mb5">{{ page.cache.title }}</h2>
-    <p class="Caption mb5">{{ page.cache.capacity }}</p>
+    <h2 class="Display2 mb5">{{ page.cache.title }}</h2>
+    <p class="Caption mb3">{{ page.cache.capacity }}</p>
     {{ page.cache.desc | markdownify}}
   </div>
   <div class="column col-xs-12 col-md-7">
-    <p><img src="{{ page.cache.photo }}"></p>
+    <p><img class="PrivateEventsPhoto4" src="{{ page.cache.photo }}"></p>
   </div>
 </div>
-<div class="row">
+<div class="row AlignCenter">
   <div class="column col-xs-12 col-md-7">
-    <p><img src="{{ page.executiveroom.photo }}"></p>
+    <p><img class="PrivateEventsPhoto5" src="{{ page.executiveroom.photo }}"></p>
   </div>
   <div class="column col-xs-12 col-md-5">
-    <h2 class="Display1 mb5">{{ page.executiveroom.title }}</h2>
-    <p class="Caption mb5">{{ page.executiveroom.capacity }}</p>
+    <h2 class="Display2 mb5">{{ page.executiveroom.title }}</h2>
+    <p class="Caption mb3">{{ page.executiveroom.capacity }}</p>
     {{ page.executiveroom.desc | markdownify}}
   </div>
 </div>
-<div class="row">
+<div class="row AlignCenter">
   <div class="column col-xs-12 col-md-5">
-    <h2 class="Display1 mb5">{{ page.penthouse.title }}</h2>
-    <p class="Caption mb5">{{ page.penthouse.capacity }}</p>
+    <h2 class="Display2 mb5">{{ page.penthouse.title }}</h2>
+    <p class="Caption mb3">{{ page.penthouse.capacity }}</p>
     {{ page.penthouse.desc | markdownify}}
   </div>
   <div class="column col-xs-12 col-md-7">
-    <p><img src="{{ page.penthouse.photo }}"></p>
+    <p><img class="PrivateEventsPhoto6" src="{{ page.penthouse.photo }}"></p>
   </div>
 </div>
-<div class="row mb10 mt10">
+<div class="row AlignCenter PrivateEventsOutro">
   <div class="column col-xs-12 col-md-6 col-md-offset-2">
-    <h2 class="Display1">{{ page.outro.headline }}</h2>
+    <h2 class="Display1 mb6">{{ page.outro.headline }}</h2>
   </div>
   <div class="column col-xs-12 col-md-4">
     {{ page.outro.desc | markdownify}}
