@@ -27,6 +27,11 @@ module.exports = function(grunt) {
         dest: 'assets/master.js',
       }
     },
+    exec: {
+      serve: {
+        cmd: 'bundle exec jekyll serve'
+      }
+    },
     watch: {
       scripts: {
         files: ['_resources/_scripts/*.js', 'Gruntfile.js', '_resources/_styles/*.styl'],
@@ -40,5 +45,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-stylus');
+  grunt.loadNpmTasks('grunt-exec');
   grunt.registerTask('default', ['concat', 'stylus', 'watch']);
 };
