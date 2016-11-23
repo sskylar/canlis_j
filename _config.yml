@@ -17,7 +17,6 @@ twitter_username: canlis
 github_username: jeremypbeasley
 markdown: kramdown
 exclude:
-- Gemfile
 - Gemfile.lock
 gems:
 - jekyll-assets
